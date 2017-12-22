@@ -7,7 +7,17 @@
 ## Function       : generate sample input for create_hbh.py script      ##
 ##                :                                                     ##
 ## Usage          :                                                     ##
-## Update Log     :                                                     ##
+## Update Log     : 12/22/2017 - externalized connection info           ##
+## Notes          : expects hdid_connection_info.json to exist.  Format:##
+##    {                                                                 ##
+##      "credentials": {                                                ##
+##              "username": "USERNAME",                                 ##
+##              "password": "PASSWORD",                                 ##
+##              "space": "DOMAIN"                                       ##
+##      },                                                              ##
+##      "master": "MASTERSERVER"                                        ##
+##    }                                                                 ##
+##                                                                      ##
 ##                :                                                     ##
 ##########################################################################
 
