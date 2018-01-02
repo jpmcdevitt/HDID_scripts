@@ -4,10 +4,12 @@
 ## Script Name    : scheduled_restore.py                                ##
 ## Created        : 2017-12-27 16:55                                    ##
 ## Author         : John McDevitt                                       ##
-## Function       : 2017-12-27 16:57                                    ##
+## Function       : Find active dataflows that have RESTORE in their    ##
+##                : name.  Find destination via comment in policy.      ##
+##                : restore the latest backup of the dataflows.         ##
 ##                :                                                     ##
 ## Usage          :                                                     ##
-## Update Log     :                                                     ##
+## Update Log     : 2018-01-02 13:41 initial functional version         ##
 ##                :                                                     ##
 ##########################################################################
 
